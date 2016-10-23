@@ -7,6 +7,9 @@ content-type: application/json
 {
   "@id": "http://localhost:55001/plone/file", 
   "@type": "File", 
+  "@workflow": {
+    "@id": "http://localhost:55001/plone/file/@workflow"
+  }, 
   "UID": "9b6a4eadb9074dde97d86171bb332ae9", 
   "allow_discussion": null, 
   "contributors": [], 

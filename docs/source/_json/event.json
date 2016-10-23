@@ -7,6 +7,9 @@ content-type: application/json
 {
   "@id": "http://localhost:55001/plone/event", 
   "@type": "Event", 
+  "@workflow": {
+    "@id": "http://localhost:55001/plone/event/@workflow"
+  }, 
   "UID": "846d632bc0854c5aa6d3dcae171ed2db", 
   "allow_discussion": null, 
   "attendees": [], 
